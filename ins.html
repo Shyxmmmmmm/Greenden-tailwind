@@ -1,0 +1,72 @@
+<style>
+    .one{
+        display: grid;
+        grid-template-rows: 1fr 2fr 1fr;
+        background-color: aquamarine;
+        height: 500px;
+        padding: 20px;
+    }
+
+    .two{
+        background-color: cadetblue;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 35px;
+        
+    }
+
+    .four{
+        background-color: cadetblue;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 35px;
+    }
+
+    .three{
+        margin: 5px 0px;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .five{
+        background-color: green;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .six{
+        background-color: orange;
+        display: grid;
+        justify-content: center;
+        align-items: flex-end;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .seven{
+        background-color: yellow;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        width: 80px;
+    }
+</style>
+
+<div class="one">
+    <div class="two">Header</div>
+    <div class="three">
+        <div class="five">Aside</div>
+        <div class="six">
+            <div class="seven">Image</div>
+            <div class="seven">Image</div>
+            <div class="seven">Image</div>
+        </div>
+    </div>
+    <div class="four">Footer</div>
+</div>
